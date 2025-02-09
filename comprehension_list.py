@@ -40,3 +40,12 @@ list2 = ['Juan', 25, 'Ingeniero']
 
 combined_list = [(list1[i], list2[i]) for i in range(len(list1))]
 print(combined_list)
+
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+transposed2 = [[row[i] for row in matriz] for i in range(len(matriz[0]))]
+print(transposed2)
